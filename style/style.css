@@ -12,7 +12,7 @@ header{
     z-index: 2;
     left: 0;
     right: 0;
-    top: 120px;
+    top: 60px;
 }
 
 .navbar{
@@ -129,24 +129,32 @@ header{
 }
 
 .title{
-    font-size: 2rem;
-    font-weight: 500;
+    font-size: 80px;
+    font-weight: 200;
+    margin-left: 300px;
+    margin-right: 200px;
+    margin-bottom: 10px;
 }
 
 .subtitle1{
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .subtitle2{
     display: flex;
-    margin-top: 30px;
+    font-size: 25px;
+    margin-top: 10px;
     justify-content: center;
     align-items: center;
 }
 
 .play-button{
-    margin-left: 200px;
+    margin-left: 100px;
     cursor: pointer;
 }
 
@@ -177,4 +185,33 @@ header{
 
 .a4{
     background-image: url('../images/background-image5.jpg');
+}
+
+footer{
+    padding-top: 0;
+    font-size: 10px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+footer a{
+    color: #08c;
+    text-decoration: none;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+ul li{
+    margin: 0 5px;
 }
