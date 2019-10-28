@@ -1,13 +1,22 @@
-
-.header{
-    background: url('../images/background-image1.jpg') 50% 100%/105% auto no-repeat;
-    height: 600px;
+*{
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
-.elements{
-    background-image: linear-gradient(rgb(100, 100, 100) 50%, rgb(124, 124, 124) 50%);
-    list-style-type: none;
+body{
+    margin: 0;
 }
-.elements:hover{
-    background-image: radial-gradient(circle 75px, rgba(0, 0, 0, 0.11) 50%, rgba(255, 255, 255, 0.2)), linear-gradient(rgb(80, 80, 80) 50%, rgb(92, 92, 92) 50%);
+
+header{
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 70px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
 }
