@@ -1,4 +1,6 @@
 <!-- PROJECT LOGO -->
+![Screenshot Image](images/Screenshot-apple-page.png)
+
 <br />
 <p align="center">
    <h3 align="center">Apple Page</h3>
