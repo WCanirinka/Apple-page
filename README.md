@@ -28,7 +28,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-  I am Wilfried. I am part of the Microverse Project and I did this page according to the required specifications.  
+  I am Wilfried Canirinka. I am part of the Microverse Project and I did this page according to the required specifications.  
 
 
 ### Build With
